@@ -1,12 +1,21 @@
-# Small Business AI Rules
+<!-- TNDS-HEADER:BEGIN -->
+<div align="center">
+  <h1>Small Business AI Rules</h1>
+  <h3>One-page AI rules for a business that runs on chat subscriptions: which tool gets which job, and what never goes in the box.</h3>
+  <img src="https://raw.githubusercontent.com/Jjohnston70/Jjohnston70/main/true-north-logo-layered-v3.png" alt="True North Data Strategies" width="240" />
+  <br /><br />
+  <a href="https://truenorthstrategyops.com"><img src="https://img.shields.io/badge/Built%20by-TNDS-1F6FEB?style=for-the-badge" alt="Built by TNDS" /></a>
+  <a href="#contact"><img src="https://img.shields.io/badge/Contact-TNDS-181717?style=for-the-badge" alt="Contact" /></a>
+</div>
+<!-- TNDS-HEADER:END -->
 
-AI rules for a person or small business that runs on chat subscriptions (ChatGPT, Claude, Perplexity, Gemini, Copilot, NotebookLM) and nothing wired to an API.
+## What this is
+
+AI rules for a person or small business that runs on chat subscriptions (ChatGPT, Claude, Perplexity, Gemini, Copilot, NotebookLM) and nothing wired to an API. It is a Claude plugin that holds one skill and the templates it fills in.
 
 You still need ground rules. At your scale they fit on a one-page table, three settings pages, and a log sheet.
 
 The skill inside is `ai-control-plane-solo`. Ask for it by that name if it does not kick in on its own.
-
-## What it answers
 
 | Question | Answered by |
 |---|---|
@@ -15,6 +24,11 @@ The skill inside is `ai-control-plane-solo`. Ask for it by that name if it does 
 | Are the accounts locked down? | Account checklist, dated, redone quarterly |
 | Why did we make that call? | Decision log, one row per AI-shaped decision |
 | What if it goes wrong? | Kill switch and incident card |
+
+## Quick start
+
+1. Install it. Once it is listed in the Claude plugin directory: in Claude Code, open `/plugin` and find it under Discover; in the Claude app, add it from the directory.
+2. Ask Claude things like "can I paste this into ChatGPT," "set up AI rules for my team," or "which AI should I use for this job." The skill walks you through the artifact you need.
 
 ## What is in the plugin
 
@@ -28,14 +42,6 @@ The skill inside is `ai-control-plane-solo`. Ask for it by that name if it does 
 | `assets/tool-routing-table.csv` | Routing table template |
 | `assets/decision-log.csv` | Decision log template |
 | `assets/incident-card.md` | Printable incident card |
-
-## Install
-
-Once it is listed in the Claude plugin directory: in Claude Code, open `/plugin` and find it under Discover; in the Claude app, add it from the directory.
-
-## How to use it
-
-Ask Claude things like "can I paste this into ChatGPT," "set up AI rules for my team," or "which AI should I use for this job." The skill walks you through the artifact you need.
 
 ## Principles
 
@@ -66,11 +72,27 @@ Built on Deloitte Insights, "The next tech infrastructure advantage is intellige
 |---|---|
 | Bug, wrong behavior, or a question | Open an issue at https://github.com/Jjohnston70/small-business-ai-rules/issues |
 | Security or privacy concern | Email jacob@truenorthstrategyops.com with "Security" in the subject; please do not open a public issue |
+| Who built it | True North Data Strategies LLC, an operations consultancy that builds for the people who run the work. [truenorthstrategyops.com](https://truenorthstrategyops.com) |
 
 ## License
 
 MIT. See `LICENSE`.
 
-## Who built it
+## Stack
 
-True North Data Strategies LLC, an operations consultancy that builds for the people who run the work. [truenorthstrategyops.com](https://truenorthstrategyops.com)
+| Layer | Tools |
+|---|---|
+| Package | Claude plugin, version 1.0.0, described in `.claude-plugin/plugin.json` |
+| Skill and references | Markdown |
+| Templates | CSV and Markdown |
+| Runtime | None. It runs inside Claude Code or the Claude app. |
+
+<!-- TNDS-FOOTER:BEGIN -->
+## Contact
+
+Jacob Johnston | True North Data Strategies LLC, SDVOSB | Colorado Springs, Colorado
+
+jacob@truenorthstrategyops.com | [truenorthstrategyops.com](https://truenorthstrategyops.com) | [pipelinepunks.com](https://pipelinepunks.com)
+
+_Maintained by the TNDS README steward. Last reviewed 2026-10-19._
+<!-- TNDS-FOOTER:END -->
