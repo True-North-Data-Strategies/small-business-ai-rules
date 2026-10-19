@@ -70,7 +70,7 @@ Built on Deloitte Insights, "The next tech infrastructure advantage is intellige
 
 | Need | Where |
 |---|---|
-| Bug, wrong behavior, or a question | Open an issue at https://github.com/Jjohnston70/small-business-ai-rules/issues |
+| Bug, wrong behavior, or a question | Open an issue at https://github.com/True-North-Data-Strategies/small-business-ai-rules/issues |
 | Security or privacy concern | Email jacob@truenorthstrategyops.com with "Security" in the subject; please do not open a public issue |
 | Who built it | True North Data Strategies LLC, an operations consultancy that builds for the people who run the work. [truenorthstrategyops.com](https://truenorthstrategyops.com) |
 
