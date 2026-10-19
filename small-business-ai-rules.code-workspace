@@ -1,0 +1,18 @@
+// Opens the Small Business AI Rules repository (True-North-Data-Strategies/small-business-ai-rules) as one folder.
+// Follows TNDS-PRM-VSCWS-001, the TNDS workspace standard. Committed with the code; edit by hand.
+{
+  "folders": [
+    {
+      "name": "Small Business AI Rules",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.DS_Store": true
+    },
+    "search.exclude": {
+      "**/.DS_Store": true
+    }
+  }
+}
